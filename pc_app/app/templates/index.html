@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ app_info.name }}</title>
+</head>
+<body>
+    <div class="box">
+        <h1>{{ app_info.name }}</h1>
+        <p>Powered by <a href="https://dilumsadeepa.github.io/Remote-PC-Controller/">Encode99</a></p>
+        <p>Running IP address: {{ ip_address }}</p>
+    </div>
+
+
+
+    <style>
+        .box{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+    </style>
+    
+</body>
+</html>

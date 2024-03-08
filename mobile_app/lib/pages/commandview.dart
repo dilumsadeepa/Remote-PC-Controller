@@ -137,9 +137,9 @@ class Commandview extends StatelessWidget {
           buildCommandIconButton(Icons.restart_alt, 'Restart',
               () => _sendData(context, "restart")),
           buildCommandIconButton(
-              Icons.copy, 'Copy', () => _sendCopy(context, "copy")),
+              Icons.copy, 'Copy to pc', () => _sendCopy(context, "copy")),
           buildCommandIconButton(
-              Icons.paste, 'Paste', () => _sendPaste(context, "paste")),
+              Icons.paste, 'Paste from pc', () => _sendPaste(context, "paste")),
           buildCommandIconButton(
               Icons.window, 'Win key', () => _sendDataWac(context, "winkey")),
           buildCommandIconButton(Icons.skip_previous, 'Previous',
