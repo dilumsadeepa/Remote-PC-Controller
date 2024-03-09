@@ -38,13 +38,12 @@
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
                 </ul>
-                <!-- <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
-                    data-bs-target="#feedbackModal">
+                <a href="./help.html" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
                     <span class="d-flex align-items-center">
                         <i class="bi-chat-text-fill me-2"></i>
-                        <span class="small">Send Feedback</span>
+                        <span class="small">Help Docs</span>
                     </span>
-                </button> -->
+                </a>
             </div>
         </div>
     </nav>
@@ -367,6 +366,15 @@ Transform the way you interact with your PC—discover a new level of convenienc
     <script src="js/scripts.js"></script>
 
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <script>
+        
+        if (window.location.href.indexOf("help") > -1) {
+            window.location.href = "help.html";
+        }
+        
+    </script>
+
 </body>
 
 </html>

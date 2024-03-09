@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Remote PC Controller Help Documentation" />
+    <meta name="author" content="" />
+    <title>Remote PC Controller Help Documentation</title>
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 mx-auto">
+
+
+                <h1 class="mt-5 mb-4">Remote PC Controller Help Documentation</h1>
+
+                <nav>
+                    <h2 class="mt-4">Table of Contents</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li>
+                            <a href="#getting-started">Getting Started</a>
+                            <ul class="list-unstyled ms-3">
+                                <li><a href="#installation">Installation</a></li>
+                                <li><a href="#starting-the-server">Starting the Server</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#using-the-application">Using the Application</a>
+                            <ul class="list-unstyled ms-3">
+                                <li><a href="#starting-the-app">Starting the App</a></li>
+                                <li><a href="#stopping-the-app">Stopping the App</a></li>
+                                <li><a href="#accessing-the-server">Accessing the Server</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#troubleshooting">Troubleshooting</a></li>
+                        <li><a href="#feedback-and-support">Feedback and Support</a></li>
+                    </ul>
+                </nav>
+
+                <section id="introduction">
+                    <h2 class="mt-5">Introduction</h2>
+                    <p>Remote PC Controller is an application that allows you to control your PC remotely. Whether you
+                        want
+                        to
+                        start or stop specific applications, access files, or perform other tasks, this app provides a
+                        convenient way to manage your PC from a distance.</p>
+                </section>
+
+                <section id="features">
+                    <h2 class="mt-5">Features</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Lock: Lock the PC remotely.</li>
+                        <li class="list-group-item">Max or Min: Maximize or minimize the active window.</li>
+                        <li class="list-group-item">Close window: Close the active window.</li>
+                        <li class="list-group-item">Sleep: Put the PC into sleep mode.</li>
+                        <li class="list-group-item">Shutdown: Shutdown the PC.</li>
+                        <li class="list-group-item">Restart: Restart the PC.</li>
+                        <li class="list-group-item">Copy to PC: Copy content from the mobile device to the PC.</li>
+                        <li class="list-group-item">Paste from PC: Paste content from the PC to the mobile device.</li>
+                        <li class="list-group-item">Win key: Simulate pressing the Windows key.</li>
+                        <li class="list-group-item">Previous: Simulate pressing the "Previous" media key.</li>
+                        <li class="list-group-item">Up: Simulate pressing the "Up" arrow key.</li>
+                        <li class="list-group-item">Next: Simulate pressing the "Next" media key.</li>
+                        <li class="list-group-item">Left: Simulate pressing the "Left" arrow key.</li>
+                        <li class="list-group-item">Play/Pause: Simulate pressing the "Play/Pause" media key.</li>
+                        <li class="list-group-item">Right: Simulate pressing the "Right" arrow key.</li>
+                        <li class="list-group-item">Tab Key: Simulate pressing the "Tab" key.</li>
+                        <li class="list-group-item">Down: Simulate pressing the "Down" arrow key.</li>
+                        <li class="list-group-item">Enter: Simulate pressing the "Enter" key.</li>
+                        <li class="list-group-item">Volume Down: Decrease the system volume.</li>
+                        <li class="list-group-item">Volume Mute: Mute the system volume.</li>
+                        <li class="list-group-item">Volume Up: Increase the system volume.</li>
+                    </ul>
+                </section>
+
+                <section id="getting-started">
+                    <h2 class="mt-5">Getting Started</h2>
+
+                    <h3 id="installation">Installation</h3>
+                    <p>Before you begin, make sure you have the application installed on both your PC and your mobile
+                        device.
+                    </p>
+                    <ul>
+                        <li>Download and install the Remote PC Controller on your PC.</li>
+                        <li>Install the mobile app on your Android device from the GitHub release.</li>
+                    </ul>
+
+                    <h3 id="starting-the-server">Starting the Server</h3>
+                    <p>To use the remote-control features, you need to start the server on your PC.</p>
+                    <ul>
+                        <li>Launch the Remote PC Controller application on your PC.</li>
+                        <li>Click the "Start App" button to initiate the server.</li>
+                    </ul>
+                </section>
+
+                <section id="using-the-application">
+                    <h2 class="mt-5">Using the Application</h2>
+
+                    <h3 id="starting-the-app">Starting the App</h3>
+                    <p>Once the server is running, you can use the mobile app to control your PC.</p>
+                    <ul>
+                        <li>Launch the Remote PC Controller app on your Android device.</li>
+                        <li>Type the IP Address that is shown on the PC application after clicking start server.</li>
+                        <li>Then click start.</li>
+                        <li>Now you can try functions by clicking the buttons.</li>
+                    </ul>
+
+                    <h3 id="stopping-the-app">Stopping the App</h3>
+                    <p>When you're done using the remote-control features, you can stop the server.</p>
+                    <ul>
+                        <li>Click the "Stop App" button in the PC application.</li>
+                        <li>This action will terminate the server, and the app status will change to "Not Running."</li>
+                    </ul>
+
+                    <h3 id="accessing-the-server">Accessing the Server</h3>
+                    <p>You can access the server's home page directly from the PC app.</p>
+                    <ul>
+                        <li>Click the "Open Server Home Page" link on the PC app.</li>
+                        <li>This will open your default web browser to the server's home page.</li>
+                    </ul>
+                </section>
+
+                <section id="troubleshooting">
+                    <h2 class="mt-5">Troubleshooting</h2>
+                    <p>If you encounter any issues, please check the Discussions section in the GitHub repository for
+                        solutions
+                        to common problems.</p>
+                </section>
+
+                <section id="feedback-and-support">
+                    <h2 class="mt-5">Feedback and Support</h2>
+                    <p>Your feedback is valuable! If you have any questions, suggestions, or encounter issues, please
+                        reach
+                        out
+                        to us:</p>
+                    <ul>
+                        <li>Email: <a href="mailto:dilumhello@gmail.com">dilumhello@gmail.com</a></li>
+                        <li>GitHub Repository: <a
+                                href="https://github.com/dilumsadeepa/Remote-PC-Controller">https://github.com/dilumsadeepa/Remote-PC-Controller</a>
+                        </li>
+                    </ul>
+
+                    <p>We appreciate your usage and hope you find Remote PC Controller helpful!</p>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-eUGBVRvKteZRdoVcHtA9ACIqKwp4IwBDAZ3OP8pL8RbaPVIKacB+YAiZq0F2DY5G"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
